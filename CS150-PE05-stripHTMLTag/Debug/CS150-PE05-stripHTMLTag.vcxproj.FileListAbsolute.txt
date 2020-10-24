@@ -1,0 +1,2 @@
+C:\Users\antho\source\repos\CS150-PE05-stripHTMLTag\Debug\CS150-PE05-stripHTMLTag.exe
+C:\Users\antho\source\repos\CS150-PE05-stripHTMLTag\Debug\CS150-PE05-stripHTMLTag.pdb

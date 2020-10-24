@@ -1,0 +1,5 @@
+slice half slice whole whole half half half
+whole HALF WhoLE half WHOLE WhOlE Slice			half sLICe halF
+WHOLE slice		WHOLE SLICE whole SLICE		whole slice WHOLE half
+
+slice

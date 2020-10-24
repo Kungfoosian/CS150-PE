@@ -1,0 +1,2 @@
+C:\Users\antho\source\repos\CS150-pe05-pizza\x64\Debug\CS150-pe05-pizza.exe
+C:\Users\antho\source\repos\CS150-pe05-pizza\x64\Debug\CS150-pe05-pizza.pdb

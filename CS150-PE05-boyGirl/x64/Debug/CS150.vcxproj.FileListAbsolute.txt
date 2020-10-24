@@ -1,0 +1,2 @@
+C:\Users\antho\source\repos\CS150-PE05-boyGirl\x64\Debug\CS150.exe
+C:\Users\antho\source\repos\CS150-PE05-boyGirl\x64\Debug\CS150.pdb

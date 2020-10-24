@@ -1,0 +1,2 @@
+C:\Users\antho\source\repos\CS150-PE07-removeEnds\Debug\CS150-PE07-removeEnds.exe
+C:\Users\antho\source\repos\CS150-PE07-removeEnds\Debug\CS150-PE07-removeEnds.pdb

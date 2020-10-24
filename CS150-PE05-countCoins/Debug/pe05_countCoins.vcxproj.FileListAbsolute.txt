@@ -1,0 +1,2 @@
+C:\Users\antho\source\repos\pe05_countCoins\Debug\pe05_countCoins.exe
+C:\Users\antho\source\repos\pe05_countCoins\Debug\pe05_countCoins.pdb

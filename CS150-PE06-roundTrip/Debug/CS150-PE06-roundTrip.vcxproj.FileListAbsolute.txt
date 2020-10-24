@@ -1,0 +1,2 @@
+C:\Users\antho\source\repos\CS150-PE06-roundTrip\Debug\CS150-PE06-roundTrip.exe
+C:\Users\antho\source\repos\CS150-PE06-roundTrip\Debug\CS150-PE06-roundTrip.pdb
