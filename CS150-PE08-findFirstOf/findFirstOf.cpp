@@ -3,7 +3,7 @@
 using namespace std;
 
 
-void findFirstOf(const char* s1, const char* s2)
+int findFirstOf(const char* s1, const char* s2)
 {
 	int result{ -1 };
 	// Find length of s2
@@ -50,7 +50,7 @@ void findFirstOf(const char* s1, const char* s2)
 		}
 	}
 
-	cout << result << endl;
+	return result;
 }
 
 

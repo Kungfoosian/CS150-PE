@@ -1,0 +1,2 @@
+C:\Users\antho\source\repos\CS150-PE08-myStrChr\Debug\CS150-PE08-myStrChr.exe
+C:\Users\antho\source\repos\CS150-PE08-myStrChr\Debug\CS150-PE08-myStrChr.pdb
