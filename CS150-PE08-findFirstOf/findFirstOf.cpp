@@ -60,7 +60,7 @@ int main()
 	findFirstOf("aaaiii", "aia");
 
 	//cout << "HERE" << endl;
-	//cout << findFirstOf("eieioh", "eio") << endl; // Expected: 2 (index of second e)
+	cout << findFirstOf("eieioh", "eio") << endl; // Expected: 2 (index of second e)
 	//cout << findFirstOf("aaaiii", "aia") << endl; // Expected: -1 (aia not inside aaaiii)
 	return 0;
 }
