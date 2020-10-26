@@ -1,0 +1,2 @@
+C:\Users\antho\source\repos\CS150-PE08-findFirst\Debug\CS150-PE08-findFirst.exe
+C:\Users\antho\source\repos\CS150-PE08-findFirst\Debug\CS150-PE08-findFirst.pdb

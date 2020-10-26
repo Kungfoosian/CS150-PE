@@ -30,7 +30,7 @@ bool insertInOrder(int dest[], size_t& destSize, const size_t destCapacity, cons
 		// Resetting destBegin and destEnd pointers
 		destBegin = dest;
 		destEnd = dest + destSize;
-		while (destBegin != destEnd - 1)
+		while (destBegin != destEnd)
 		{
 			size_t counter = 1;
 			while (counter != destEnd - destBegin) // The amount of elements you can compare with decrease as destBegin increase

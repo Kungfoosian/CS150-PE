@@ -37,6 +37,7 @@ int main()
 	char toFind = 'e';
 	
 	const char* result = myStrChr(myString, toFind);
+	//cout << result << endl;
 	if (result != NULL)
 	{
 		// result returns a pointer, but if prints to console, then it prints the rest of the c_string starting from that pointer
@@ -44,6 +45,7 @@ int main()
 		cout << "First found at index: " << result - myString << endl;
 	}
 	else cout << "Can't find" << endl;
+
 	
 	return 0;
 }
