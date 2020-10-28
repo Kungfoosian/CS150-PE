@@ -1,0 +1,2 @@
+C:\Users\antho\source\repos\CS150-PE08-numStr\Debug\CS150-PE08-numStr.exe
+C:\Users\antho\source\repos\CS150-PE08-numStr\Debug\CS150-PE08-numStr.pdb
