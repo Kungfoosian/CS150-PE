@@ -1,0 +1,4 @@
+C:\Users\antho\source\repos\CS150-PE08-myStrrCpy\Debug\CS150-PE08-myStrrCpy.exe
+C:\Users\antho\source\repos\CS150-PE08-myStrrCpy\Debug\CS150-PE08-myStrrCpy.pdb
+C:\Users\antho\source\repos\CS150-PE08-myStrNCpy\Debug\CS150-PE08-myStrrCpy.exe
+C:\Users\antho\source\repos\CS150-PE08-myStrNCpy\Debug\CS150-PE08-myStrrCpy.pdb

@@ -6,48 +6,23 @@ using namespace std;
 int findFirstOf(const char* s1, const char* s2)
 {
 	int result{ -1 };
-	// Find length of s2
-	const char* s2Ptr = s2;
-	size_t s2Len{ 0 };
-	while (*s2Ptr != '\0')
-	{
-		s2Len++;
-		s2Ptr++;
-	}
-
-	s2Ptr = s2;
-
+	
 	const char* s1Ptr = s1;
-	bool found{ false };
-	int s1Index{ 0 };
+
 	while (*s1Ptr != '\0')
 	{
 		size_t counter{ 0 };
-		while (counter != s2Len)
+		while (*(s2 + counter) != '\0')
 		{
-			if (*(s1Ptr + counter) == *(s2Ptr + counter))
+			if (*(s1Ptr + counter) == *(s2 + counter))
 			{
-				found = true;
-				counter++;
+				if (*(s2 + counter + 1 == '\0')) return s1Ptr - s1; // check if counter is at end of s2, it would only get there if everything matched so far
+				else counter++;
 			}
-			else
-			{
-				found = false;
-				break;
-			}
-
+			else break;
 		}
 
-		if (found)
-		{
-			result = s1Index;
-			break;
-		}
-		else
-		{
-			s1Ptr++;
-			s1Index++;
-		}
+		s1Ptr++;
 	}
 
 	return result;
