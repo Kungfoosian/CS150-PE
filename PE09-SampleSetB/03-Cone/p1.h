@@ -9,7 +9,21 @@ using namespace std;
 
 const double PI = std::acos(-1);
 
-// Define your class here
+class Cone
+{
+private:
+	double r_, h_;
+public:
+	Cone();
+	Cone(double, double);
+	double radius() const;
+	double height() const;
+	double volume() const;
+	double area() const;
+	friend ostream& operator<<(ostream& os, Cone c);
+	Cone operator++(int);
+	Cone operator++();
+};
 
 
 #endif

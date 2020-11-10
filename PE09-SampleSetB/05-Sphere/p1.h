@@ -9,7 +9,19 @@ using namespace std;
 
 const double PI = std::acos(-1);
 
-// Define your class here
+class Sphere
+{
+private:
+	double r_;
+public:
+	Sphere(double r = 0);
+	double radius() const;
+	double volume() const;
+	double area() const;
+	std::string toString() const;
+	Sphere operator* (double d);
+	void operator/=(double d);
+};
 
 
 

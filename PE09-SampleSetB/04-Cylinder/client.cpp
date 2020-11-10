@@ -1,9 +1,32 @@
 #include <iostream>
 #include <iomanip>
+#include <cmath>
 #include <string>
 using namespace std;
 
 #include "p1.h"
+
+Cylinder::Cylinder() { r_ = 0; h_ = 0; }
+Cylinder::Cylinder(double r, double h) { r_ = r; h_ = h; }
+double Cylinder::radius() const { return r_; }
+double Cylinder::height() const { return h_; }
+double Cylinder::volume() const { return PI * pow(r_, 2) * h_; }
+double Cylinder::area() const { return 2 * PI * r_ * h_ + 2 * PI * pow(r_, 2); }
+ostream& operator<<(ostream& os, Cylinder c)
+{
+    os << "Cylinder(radius->" << c.radius() << ", height->" << c.height() << ", volume->" << c.volume() << ", area->" << c.area() << ")";
+    return os;
+}
+Cylinder Cylinder::operator~()
+{
+    return Cylinder{h_, r_};
+} // Invert radius -> height (vice versa), original stays the same
+void Cylinder::operator!()
+{
+    r_ = 1 / r_;
+    h_ = 1 / h_;
+} // Flipping members?
+
 
 int main()
 {

@@ -1,0 +1,2 @@
+C:\Users\antho\source\repos\CS150-PE09-sphere\Debug\CS150-PE09-sphere.exe
+C:\Users\antho\source\repos\CS150-PE09-sphere\Debug\CS150-PE09-sphere.pdb

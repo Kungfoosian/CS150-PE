@@ -1,9 +1,35 @@
 #include <iostream>
+#include <sstream>
 #include <iomanip>
 #include <string>
+#include <cmath>
 using namespace std;
 
 #include "p1.h"
+Cone::Cone() { r_ = 0; h_ = 0; }
+Cone::Cone(double r, double h) { r_ = r; h_ = h; }
+double Cone::radius() const { return r_; }
+double Cone::height() const { return h_; }
+double Cone::volume() const { return PI * pow(r_,2) * (h_ / 3); }
+double Cone::area() const { return PI * r_ * (r_ + sqrt(pow(h_, 2) + pow(r_, 2))); }
+Cone Cone::operator++(int i)
+{
+    h_++;
+    return *this;
+}
+
+Cone Cone::operator++()
+{
+    ++r_;
+    return *this;
+}
+
+ostream& operator<< (ostream& os, Cone c)
+{
+    os << "Cone(r->" << c.radius() << ", h->" << c.height() << ", volume->" << c.volume() << ", area->" << c.area() << ")";
+
+    return os;
+}
 
 int main()
 {
